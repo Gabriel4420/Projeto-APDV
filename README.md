@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="public/assets/home.png" alt="Projeto APDV" />
+  <img src="./public/assets/home.png" alt="Projeto APDV" />
 </div>
 
 <h1 align="center">Projeto APDV</h1>
