@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+body {
+    margin: 0 75px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar .container {
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.d-flex.align-items-center.justify-content-center h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.container {
+
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+
+
+.demo {
+    padding: 3px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.demo th {
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-bottom: 0px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    background: #FFFFFF;
+    text-align: left;
+    padding: 10px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.demo td {
+    border-top: 0px;
+    border-right: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+
+
+.demo-2 {
+    padding: 3px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.demo-2 th {
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+    background: #FFFFFF;
+    text-align: left;
+    padding: 10px !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th.down {
+    text-align: right;
+}
+
+.demo-2 td {
+    border-top: 1px;
+    border-right: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 5px;
+}
+
+tbody tr td p {
+    padding-left: 10px;
+}
+
+.text-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
